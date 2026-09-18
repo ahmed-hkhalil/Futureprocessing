@@ -2,13 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rflqetyb/futureprocessing.a7med5alil.im
-    - /bin/cp -f index.html $DEPLOYPATH/index.html
-    - /bin/cp -f 404.html $DEPLOYPATH/404.html
-    - /bin/cp -f .htaccess $DEPLOYPATH/.htaccess
-    - /bin/cp -f .nojekyll $DEPLOYPATH/.nojekyll
-    - /bin/cp -f favicon.png $DEPLOYPATH/favicon.png
-    - /bin/cp -f manifest.json $DEPLOYPATH/manifest.json
-    - /bin/cp -f asset-manifest.json $DEPLOYPATH/asset-manifest.json
-    - /bin/mkdir -p $DEPLOYPATH/static $DEPLOYPATH/assets
-    - /bin/cp -rf static/. $DEPLOYPATH/static/
-    - /bin/cp -rf assets/. $DEPLOYPATH/assets/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -rf build/. $DEPLOYPATH/
