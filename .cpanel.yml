@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rflqetyb/futureprocessing.a7med5alil.im
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -rf build/. $DEPLOYPATH/
+    - /bin/mkdir -p /home/rflqetyb/futureprocessing.a7med5alil.im
+    - /bin/cp -rf build/* /home/rflqetyb/futureprocessing.a7med5alil.im/
+    - /bin/cp -f build/.htaccess /home/rflqetyb/futureprocessing.a7med5alil.im/.htaccess
