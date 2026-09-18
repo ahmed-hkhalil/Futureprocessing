@@ -2,5 +2,6 @@
 deployment:
   tasks:
     - /bin/mkdir -p /home/rflqetyb/futureprocessing.a7med5alil.im
-    - /bin/cp -rf build/* /home/rflqetyb/futureprocessing.a7med5alil.im/
-    - /bin/cp -f build/.htaccess /home/rflqetyb/futureprocessing.a7med5alil.im/.htaccess
+    - /bin/cp -rf build/. /home/rflqetyb/futureprocessing.a7med5alil.im/
+    - /bin/mkdir -p /home/rflqetyb/public_html/futureprocessing.a7med5alil.im
+    - /bin/cp -rf build/. /home/rflqetyb/public_html/futureprocessing.a7med5alil.im/
